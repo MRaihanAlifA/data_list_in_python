@@ -40,7 +40,7 @@ for i in range(0, len(book_list)):
 print(f'second element = {new_book}')
 
 print('\npop -1')
-book_list = ['mathematics', 'science', 'chemics', 'english']
+book_list = ['mathematics', 'science', 'chemics', 'english', 'economy']
 book_list.pop(-1)
 for i in range(0, len(book_list)):
     print(book_list[i])
